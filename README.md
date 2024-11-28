@@ -9,6 +9,11 @@ Run following commands so that the website will be visible at port 8000
 1. cd vbsprojone
 2. python manage.py runserver
 
+## Executing the project with the help of BASH file
+1. Take the BASH code from shopify_app.sh
+2. Change permissions of bash file and provide execution to it ( You can do it by chmod 775 shopify_app.sh )
+3. Run command: ./shopify_app.sh
+
 Implementation:
 
 ![1](https://github.com/vbs30/Shopify/assets/95699405/19b6ed04-7e2b-4f56-8dd0-3a731c420230)
