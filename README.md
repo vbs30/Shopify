@@ -3,6 +3,12 @@
 Shopify is an inventory project where admins and manufacturers can add certain products with all the attributes.
 Users can watch out the product and if they need it, they can call the respective seller or the admin.
 
+## To run the project:
+
+Run following commands so that the website will be visible at port 8000
+1. cd vbsprojone
+2. python manage.py runserver
+
 Implementation:
 
 ![1](https://github.com/vbs30/Shopify/assets/95699405/19b6ed04-7e2b-4f56-8dd0-3a731c420230)
