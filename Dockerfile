@@ -15,3 +15,6 @@ COPY . /app/
 
 # Expose the port the app runs on
 EXPOSE 8000
+
+# Run migrations and start the server
+CMD ["sh", "-c", "python3 manage.py migrate && python3 manage.py runserver 13.201.229.121:8000"]
