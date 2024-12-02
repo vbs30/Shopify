@@ -136,9 +136,9 @@ STATIC_URL = '/static/'
 
 # If you add any custom static files in the future, add their paths here
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'core', 'static'),
-    os.path.join(BASE_DIR, 'dashboard', 'static'),
-    os.path.join(BASE_DIR, 'item', 'static'),
+    os.path.join(BASE_DIR, 'core', 'templates'),
+    os.path.join(BASE_DIR, 'dashboard', 'templates'),
+    os.path.join(BASE_DIR, 'item', 'templates'),
 ]
 
 # Directory where static files will be collected for production
